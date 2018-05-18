@@ -20,4 +20,4 @@ outputs:
   output:
     type: File
     outputBinding:
-      glob: $(inputs.input.split("/").slice(-1))
+      glob: $(inputs.url.split("/").slice(-1))
