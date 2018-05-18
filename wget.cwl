@@ -10,8 +10,8 @@ requirements:
 
 inputs:
 
-  input:
-    type: url
+  url:
+    type: string
     inputBinding:
       position: 1
 
